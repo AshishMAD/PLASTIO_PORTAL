@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>COMPANY LOGIN</title>
+<style>
+   
+body
+{
+background-color:grey;
+}
+
+h2{
+ font-family: Sans-serif; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: black;
+ text-align: center; 
+ text-decoration: underline;
+}
+table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #000000;
+ border-style: dashed;
+ width:100%;
+ height:70%;
+ padding:25px;
+ 
+}
+table.inner{
+ border: 10px;
+}
+input[type=text], input[type=email],input[type=password], input[type=number]{
+ width: 70%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 25%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+
+img{
+float:right;
+width:10%;
+height:auto;
+}
+
+
+</style>
+</head>
+<body>
+<h2><b> COMPANY LOGIN <b></h2>
+<img src="PP2.jpeg"></img>
+<table align="center" cellpadding = "10">
+<!-------------------------- Email ID ------------------------------------->
+<tr>
+<td>COMPANY Email ID</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder="Email ID ..."/></td>
+</tr>
+
+<!-------------------------- PASSWORD ------------------------------------->
+<tr>
+<td>Password<br /><br /><br /></td>
+<td>
+<input type="password" name="Password" placeholder="Password"/>
+</td>
+</tr>
+
+
+
+<!----------------------- Submit and Reset ------------------------------->
+<tr>
+<td colspan="4" align="center">
+<input type="submit" value="LOGIN"><br /><br />
+<input type="reset" value="RESET"><br /><br />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
